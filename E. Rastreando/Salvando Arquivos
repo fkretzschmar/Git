@@ -1,0 +1,15 @@
+#Preparar um arquivo para rastrealo
+git add README.md
+
+
+#Salvar Arquivo
+git commit -m"commit inicial"
+
+
+#Pastas(resumos) ou arquivos que você deseja ignorar
+echo resumos/ > .gitignore
+
+
+#Criar arquivo apenas com objetivo de visualizar repositório
+ touch aulas/.gitkeep
+
