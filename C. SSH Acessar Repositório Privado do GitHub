@@ -1,3 +1,10 @@
 #Comando para estar inserindo a chave
 ssh-keygen -t ed25519 -C "your_email@example.com"
 #Em seguida informe o local para salvar a chave, em seguida vai pedir uma palavra chave.
+
+
+#comando:
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519
+Obs:Em seguida vai estar pedindo a palavra chave
