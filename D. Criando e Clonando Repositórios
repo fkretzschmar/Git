@@ -1,0 +1,12 @@
+#Crie uma pasta aonde desejar com o comando mkdir, crie um repositório git com o comando abaixo
+git init
+Obs: Vá para dentro do repositório
+
+#Para clonar o repositório do github e renomear o mesmo realizamos o comando abaixo (repo-clonado)
+git clone https://github.com/fkretzschmar/hello-world.git repo-clonado
+
+
+#Para colocar um repositório local no github, copie o código do repositorio que deseja inserir para o comando abaixo
+git remote add origin https://github.com/fkretzschmar/repo-remoto.git
+
+
