@@ -7,3 +7,15 @@ git config user.name
 git config --global user.email ffkretzschmar@gmail.com
 confirmar:
 git config user.email
+
+
+#Verificar Branch padrão
+git config init.defaultBranch
+
+
+#Trocar Branch
+git config --global init.defaultBranch main
+
+
+#Verificar configurações globais
+git config --global --list
