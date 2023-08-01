@@ -8,3 +8,17 @@ eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/id_ed25519
 Obs:Em seguida vai estar pedindo a palavra chave
+
+#Vá para o github
+Configurações/Settings/SSH and GPG keys/SSH keys/Add new SSH key/
+Title
+Authentication Key
+
+
+Retorne para o git, vá para a pasta .ssh
+cd ~/.ssh
+verifique o nome do arquivo
+ls
+verifique a chave publica
+cat id_ed25519.pub
+Copie a chave e cole lá no github em key
