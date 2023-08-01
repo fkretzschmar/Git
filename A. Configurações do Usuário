@@ -1,0 +1,9 @@
+#Configurar nome do usuario
+git config --global user.name "felipek"	
+confirmar: 
+git config user.name
+
+#Configurar nome do email
+git config --global user.email ffkretzschmar@gmail.com
+confirmar:
+git config user.email
