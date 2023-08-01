@@ -1,0 +1,18 @@
+#Acessar repositório privado do github
+git clone https://github.com/fkretzschmar/hello-world.git
+
+
+#Por segurança é necessário criar um token
+Lá no github
+Configurações/Settings/Developer settings/Personal access tokens/Tokens(classic)/
+Generate new token/Generate new token (classic)
+Ao realizar o comando clone informe o token para confirmar
+
+
+#Para não ficar pedindo o token todo momento
+Salvo temporariamente:
+git config credential.helper cach
+Salvo permanentemente:
+git config credential.helper store
+Global:
+git config --global credential.helper store
