@@ -14,3 +14,6 @@ git pull
 
 #Sintonizando todas alterações feitas no GitHub para o seu repositório local
 git remote add upstream https://github.com/fkretzschmar/dio-resumos-git-e-github.git
+Verificando informações da sincronia.
+git remote -v
+
