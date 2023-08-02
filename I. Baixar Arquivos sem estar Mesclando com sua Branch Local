@@ -1,0 +1,11 @@
+
+#O comando abaixo serve para baixar arquivos sem estar mesclando com sua branch local
+git fetch origin main
+
+
+#vai retornar o arquivo e oque contem dentro dele, porem o mesmo não estara no repositório apenas foi baixado
+git diff main origin/main
+
+
+#Para enviar para branch
+git merge origin/main
