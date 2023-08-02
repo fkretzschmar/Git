@@ -10,3 +10,7 @@ git push -u origin main
 
 #Resgatar auterações feitas no github para diretório local
 git pull
+
+
+#Sintonizando todas alterações feitas no GitHub para o seu repositório local
+git remote add upstream https://github.com/fkretzschmar/dio-resumos-git-e-github.git
