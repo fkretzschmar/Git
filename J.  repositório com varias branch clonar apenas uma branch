@@ -1,0 +1,3 @@
+
+#Dentro do repositório com varias branch clonar apenas uma branch (teste)
+git clone https://github.com/fkretzschmar/repo-remoto.git --branch teste --single-branch
