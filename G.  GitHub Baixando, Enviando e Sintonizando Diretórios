@@ -12,8 +12,11 @@ git push -u origin main
 git pull
 
 
-#Sintonizando todas alterações feitas no GitHub para o seu repositório local
+#Sintonizando todas alterações feitas no GitHub para o seu repositório local(Nome do repositório remoto upstream)
 git remote add upstream https://github.com/fkretzschmar/dio-resumos-git-e-github.git
 Verificando informações da sincronia.
 git remote -v
+Baixar alterações feitas no github
+git pull upstream main
+
 
