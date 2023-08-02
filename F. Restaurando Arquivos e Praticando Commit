@@ -1,0 +1,31 @@
+#Restaurando arquivo até o commit
+git restore README.md
+
+#Verificar o ultimo commit realizado
+git log
+
+#Alterar a menssagem do commit
+git commit --amend -m"Adiciona gitignore e diretórios aulas e resumos"
+ou
+git commit --amend
+Obs: Estara abrindo um editor
+Para sair do terminal
+Pressione a tecla "Esc" digite ":wq"
+
+
+#Retornar antes do ultimo commit informado
+git reset --soft (numero_do_commit) 2e06eb28509b1d8ed3e612fccf7bf9e3b7a4af41 
+
+
+#Pega os arquivos antes do commit informado e coloca na área do repositório, tendo que realizar o comando(gid add .) para rastrealos novamente
+git reset
+ou 
+git reset --mixed (numero_do_commit) 2e06eb28509b1d8ed3e612fccf7bf9e3b7a4af41
+
+
+#Apaga todos os commits até aquele informado
+git reset --hard (numero_do_commit) 2e06eb28509b1d8ed3e612fccf7bf9e3b7a4af41 
+
+
+#Verificar o historico de commits
+git reflog
