@@ -4,6 +4,8 @@ git restore README.md
 #Verificar o ultimo commit realizado
 git log
 
+
+
 #Alterar a menssagem do commit
 git commit --amend -m"Adiciona gitignore e diretórios aulas e resumos"
 ou
