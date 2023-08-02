@@ -1,0 +1,11 @@
+#Arquivar alterações realizadas fora da branch
+git stash
+
+#Listar arquivos
+git stash list
+
+#Trazer de volta o arquivo para a branch, excluindo o arquivo mais recente
+git stash pop
+
+#Trazer de volta o arquivo para a branch, e mantendo o arquivo na lista para modificações
+git stash apply
