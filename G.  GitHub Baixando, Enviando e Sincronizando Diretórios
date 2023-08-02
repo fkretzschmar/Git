@@ -19,4 +19,6 @@ git remote -v
 Baixar alterações feitas no github
 git pull upstream main
 
+Para enviar para o github alterações é melhor estar criando uma branch
+
 
