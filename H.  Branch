@@ -1,0 +1,48 @@
+#Praticando branch, criamos 3 commit
+-Criamos um repositório com um arquivo dentro
+-Damos commit
+git add .
+git commit -m"commit 0"
+
+
+Adicionamos outro commit
+echo "#commit-1-branch-main" > commit-1-branch-main.txt
+git add .
+git commit -m"commit 1"
+
+
+Adicionamos outro commit
+echo "#commit-2-branch-main" > commit-2-branch-main.txt
+git add .
+git commit -m"commit 2"
+
+____________________________________
+
+#Criando uma nova branch com nome teste
+git checkout -b teste
+
+
+#agora vamos criar um commit dentro da nova branch
+echo "#commit-3-branch-teste" > commit-3-branch-teste.txt
+git add .
+git commit -m"commit 3"
+
+
+#Vamos retornar para a branch main
+git checkout main
+
+
+#Listar o ultimo commit de cada branch
+git branch -v
+
+
+#Para mostrar o arquivo no repositório da branch teste realize o comando abaixo
+git merge teste
+
+
+#Verificar todas as brach criadas
+git branch
+
+# Deletar uma branch
+git branch -d teste
+
