@@ -1,0 +1,12 @@
+#Antes atualize o diretorio
+git add .
+
+
+#Passar o diretório local para o github
+git remote add origin https://github.com/fkretzschmar/dio-resumos-git-e-github.git
+em seguida
+git push -u origin main
+
+
+#Resgatar auterações feitas no github para diretório local
+git pull
