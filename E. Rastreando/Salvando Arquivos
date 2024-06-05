@@ -8,6 +8,18 @@ git add .\README.md
 git commit -m"commit inicial"
 
 
+#verificar o numero do commit e descrições(Histórico dos commits feitos)
+git log
+
+#Restaurar arquivos modificados(Arquivo .\README.md)
+git restore .\README.md
+
+
+#Tirar o arquivo da área Staged e retornar o mesmo para a área Changes (Arquivo .\README.md)
+git restore --staged .\README.md
+
+
+
 #Pastas(resumos) ou arquivos que você deseja ignorar
 echo resumos/ > .gitignore
 
