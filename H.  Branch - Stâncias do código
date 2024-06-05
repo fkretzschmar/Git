@@ -46,3 +46,39 @@ git branch
 # Deletar uma branch
 git branch -d teste
 
+______________________________________________________________________________________________________________________
+Santander Code (Branch é como se fosse stancias do mesmo código que pode se juntar no final do projeto)
+
+#Criando outra Branch (nome da branch testing)
+git branch testing
+
+
+#Verificar em qual Branch você esta
+git log --oneline --decorate
+aperte q para sair
+OU
+git branch
+
+
+#Mudar de Branch
+git checkout testing
+
+
+#Retornar para Branch master
+git checkout master
+
+
+#Pegar atualizações do código de outra branch, tem que estar na branch que deseja receber o código.
+git merge testing
+
+
+
+
+
+
+
+
+
+
+
+
