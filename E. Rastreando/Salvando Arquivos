@@ -1,5 +1,7 @@
 #Preparar um arquivo para rastrealo
 git add README.md
+ou
+git add .\README.md
 
 
 #Salvar Arquivo
