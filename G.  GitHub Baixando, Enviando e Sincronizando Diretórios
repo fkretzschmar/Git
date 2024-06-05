@@ -8,6 +8,12 @@ em seguida
 git push -u origin main
 
 
+#Antes do git pull podemos visualizar as alterações feitas com:
+git fetch
+git diff origin/master
+(Aperte q para sair das informações)
+
+
 #Resgatar auterações feitas no github para diretório local
 git pull
 
