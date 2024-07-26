@@ -27,7 +27,8 @@ git checkout -b main
 
 #Criando uma nova branch com nome teste
 git checkout -b teste
-
+OU
+git branch felipe_pagina_2
 
 #agora vamos criar um commit dentro da nova branch
 echo "#commit-3-branch-teste" > commit-3-branch-teste.txt
