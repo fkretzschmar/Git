@@ -18,6 +18,13 @@ git commit -m"commit 2"
 
 ____________________________________
 
+
+#Verificar se tem algum branch
+git branch
+
+#Criando a primeira branch
+git checkout -b main
+
 #Criando uma nova branch com nome teste
 git checkout -b teste
 
@@ -25,7 +32,7 @@ git checkout -b teste
 #agora vamos criar um commit dentro da nova branch
 echo "#commit-3-branch-teste" > commit-3-branch-teste.txt
 git add .
-git commit -m"commit 3"
+git commit -m "commit 3"
 
 
 #Vamos retornar para a branch main
